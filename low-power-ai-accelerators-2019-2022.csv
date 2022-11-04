@@ -1,0 +1,80 @@
+name,year,on,tech,area,c_area,power,c_power,freq,gops,c_gops,gsyops,c_gsyops,power_eff,c_power_eff,area_eff,c_area_eff,gsyops_eff,c_gsyops_eff,area_eff_sy,c_area_eff_sy,precision,inference,training,acc_target,company,link
+Eyeriss v2,2019,simulated,65,,False,476.25,True,200.0,153.6,False,,False,578.3,False,,False,,False,,False,Bit 8,True,False,CNN,,https://eyeriss.mit.edu/
+,2019,FPGA,,,False,1770.0,False,160.0,40.96,False,,False,23.14,False,,False,,False,,False,FxP 8,True,False,CNN,,https://ieeexplore.ieee.org/abstract/document/8875030
+,2019,FPGA,40,2.16,False,68.0,False,50.0,3.2,True,,False,47.059,True,1.481,True,,False,,False,Bit 8,True,False,CNN,,https://ieeexplore.ieee.org/abstract/document/9056941
+SparTen,2019,simulated,45,0.766,False,118.3,False,800.0,25.6,True,,False,216.399,True,33.42,True,,False,,False,,True,False,CNN,,https://dl.acm.org/doi/10.1145/3352460.3358291
+DT-CNN,2019,simulated,65,6.8,False,196.0,False,200.0,639.7,False,,False,3260.0,False,94.1,False,,False,,False,Bit 8,True,False,CNN; GAN,,https://ieeexplore.ieee.org/document/8702243
+Dante,2019,simulated,14,2.3,False,,False,330.0,,False,,False,,False,,False,,False,,False,,True,False,DNN,,https://ieeexplore.ieee.org/document/8675205
+TIE,2019,simulated,28,1.744,False,154.8,False,1000.0,7640.0,False,,False,72900.0,False,43807.339,True,,False,,False,Bit 16,True,False,DNN,,https://dl.acm.org/doi/10.1145/3307650.3322258
+MnnFast,2019,FPGA,28,,False,,False,1000.0,120.0,False,,False,,False,,False,,False,,False,,True,,Transformer,,https://dl.acm.org/doi/10.1145/3307650.3322214
+ExTensor,2019,simulated,32,98.89,False,,False,1000.0,128.0,False,,False,,False,,False,,False,,False,FP 64,True,,SpGEMM,,https://dl.acm.org/doi/10.1145/3352460.3358275
+WAX,2019,simulated,28,0.326,False,1.55,True,200.0,26.23,True,,False,16938.5,True,206.0,False,,False,,False,Bit 8,True,False,CNN,,https://dl.acm.org/doi/10.1145/3352460.3358316
+CGNet-NM,2019,simulated,28,3.859,False,159.5,False,500.0,144.0,True,,False,902.83,True,37.315,True,,False,,False,Bit 8,True,False,CNN,,https://dl.acm.org/doi/abs/10.1145/3352460.3358283
+Tianjic,2019,ASIC,28,14.44,False,950.0,False,300.0,1214.1,True,616.55,True,1278.0,False,84.079,True,649.0,False,42.697368,True,INT 1/8,True,False,SNN; ANN,,https://www.nature.com/articles/s41586-019-1424-8
+MASR,2019,simulated,16,4.7,False,375.0,False,1000.0,544.0,True,,False,1051.425,True,194.63,True,,False,,False,FP 10,True,True,RNN,,https://ieeexplore.ieee.org/abstract/document/8891617
+,2019,ASIC,28,10.92,False,154.025,False,240.0,604.7,False,,False,2970.0,False,55.375,True,,False,,False,Bit 8,True,False,CNN,,https://ieeexplore.ieee.org/abstract/document/8662397
+NPU'19,2019,ASIC,8,5.5,False,796.0,False,933.0,4423.5,False,,False,8000.0,False,804.273,True,,False,,False,Bit 8/16,True,False,DNN; CNN,Samsung,https://ieeexplore.ieee.org/abstract/document/8662476
+LNPU,2019,ASIC,45,16.0,False,367.0,False,200.0,2482.76,True,,False,3382.5,True,77.586,True,,False,,False,FP 8/16,True,True,CNN; LSTM; RNN,,https://ieeexplore.ieee.org/abstract/document/8662302
+eCNN,2019,simulated,40,55.23,False,6950.0,False,250.0,41000.0,False,,False,5899.28,False,742.35,False,,False,,False,,True,False,CNN,,https://dl.acm.org/doi/10.1145/3352460.3358263
+Lightspeeur 5801S,2019,ASIC,28,36.0,False,224.0,False,200.0,2800.0,False,,False,12600.0,False,77.78,True,,False,,False,,True,False,CNN,Gyrfalcon Technology Inc.,https://www.gyrfalcontech.ai/solutions/lightspeeur-5801
+Lightspeeur 2801S,2019,ASIC,,49.0,False,600.0,False,100.0,5600.0,False,,False,9300.0,False,114.286,True,,False,,False,,True,False,CNN,Gyrfalcon Technology Inc.,https://www.gyrfalcontech.ai/solutions/2801s/
+Hailo-8,2019,ASIC,,225.0,False,2500.0,False,,26000.0,False,,False,10400.0,True,115.556,True,,False,,False,Bit 8/16,True,False,DNN,Hailo,https://hailo.ai/product-hailo/hailo-8
+KL520,2019,ASIC,,,False,575.0,True,300.0,345.0,False,,False,600.0,False,,False,,False,,False,Bit 8,True,,LSTM; CNN,Kneron,https://www.kneron.com/solutions/soc/
+Jetson Nano,2019,ASIC,,3150.0,False,7500.0,False,,250.0,False,,False,37.5,True,0.079,True,,False,,False,FP 16,True,True,DNN,NVIDIA,https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/product-development/
+JPEG-ACT,2020,simulated,,1.48,False,1360.0,False,1455.0,,False,,False,,False,,False,,False,,False,INT 8| FP 32,True,True,CNN,,https://ieeexplore.ieee.org/abstract/document/9138963
+TIMELY,2020,simulated,65,91.0,False,0.409,True,40.0,4.24,True,,False,21000.0,False,0.047,True,,False,,False,Bit 8/16,True,False,DNN; CNN,,https://ieeexplore.ieee.org/abstract/document/9138916
+RecNMP,2020,simulated,40,0.54,False,169.25,False,240.0,,False,,False,,False,,False,,False,,False,,True,,PR,,https://ieeexplore.ieee.org/abstract/document/9138955
+uGEMM,2020,simulated,45,0.6,False,165.0,False,400.0,102.4,True,,False,670.476,True,185.563,True,,False,,False,Bit 8,True,,GEMM,,https://ieeexplore.ieee.org/abstract/document/9139000
+SpinalFlow,2020,simulated,28,2.09,False,162.4,False,200.0,,False,25.6,True,,False,,False,157.635,True,31.96,True,Bit 4/8,True,False,SNN,,https://ieeexplore.ieee.org/document/9138926
+NEBULA,2020,simulated,32,86.729,False,5200.0,False,1200.0,,False,,False,,False,,False,,False,,False,Bit 4/8,True,False,SNN; ANN,,https://ieeexplore.ieee.org/abstract/document/9138925
+XpulpNN,2020,simulated,22,0.998,False,100.0,False,250.0,5.0,False,,False,550.0,False,55.0,True,,False,,False,Bit 2/4/8/16,True,False,DNN; CNN,,https://ieeexplore.ieee.org/abstract/document/9116529
+YOSO,2020,simulated,22,,False,0.734,False,0.12,,False,1.29024,True,,False,,False,1757.82016,True,,False,Bit 8,True,False,SNN,,https://arxiv.org/abs/2006.09982
+DRQ,2020,simulated,45,0.32,False,71.96,True,500.0,1584.0,True,,False,22160.19,True,4950.0,True,,False,,False,INT 4/8,True,False,DNN,,https://ieeexplore.ieee.org/abstract/document/9138970
+SmartExchange,2020,simulated,28,,False,2853.0,True,1000.0,8192.0,True,,False,4054.021,True,,False,,False,,False,Bit 4/8 | FxP 8,True,False,DNN; CNN,,https://ieeexplore.ieee.org/abstract/document/9138981
+MatRaptor,2020,simulated,28,2.257,False,1344.95,False,2000.0,32.0,False,,False,23.793,True,14.178,True,,False,,False,,True,,SpGEMM,,https://ieeexplore.ieee.org/abstract/document/9251978
+DT-CNN,2020,simulated,65,6.8,False,206.0,False,200.0,664.4,False,,False,3220.0,False,97.6,False,,False,,False,Bit 8,True,False,CNN; GAN,,https://ieeexplore.ieee.org/abstract/document/9094335
+,2020,simulated,45,,False,199.68,False,25.0,121.4,False,,False,610.0,False,,False,,False,,False,Bit 1/4/5/8,True,,MAC,,https://ieeexplore.ieee.org/abstract/document/8998360
+A3,2020,simulated,40,2.082,False,98.92,False,1000.0,221.0,False,,False,2234.13,True,106.148,True,,False,,False,,True,False,Transformer,,https://ieeexplore.ieee.org/abstract/document/9065498
+OPTIMUS,2020,simulated,28,5.186,False,928.14,False,200.0,,False,,False,,False,,False,,False,,False,Bit 32 | FxP 16,True,,GEMM,,https://proceedings.mlsys.org/paper/2020/hash/903ce9225fca3e988c2af215d4e544d3-Abstract.html
+SpArch,2020,simulated,40,28.49,False,9260.0,False,1000.0,16.0,False,,False,1.728,True,0.562,True,,False,,False,FP 64,True,,SpGEMM,,SpArch: Efficient Architecture for Sparse Matrix Multiplication | IEEE Conference Publication | IEEE Xplore
+,2020,ASIC,14,9.8,False,2727.0,True,1500.0,3000.0,False,,False,1100.0,False,300.0,False,,False,,False,FP 16,True,True,CNN; LSTM; RNN,IBM,https://ieeexplore.ieee.org/abstract/document/9162917
+REVEL,2020,simulated,28,1.93,False,1663.3,False,1250.0,,False,,False,,False,,False,,False,,False,,True,,Matrix Alg.,,https://ieeexplore.ieee.org/abstract/document/9065593
+ETHOS-U55,2020,ASIC,16,0.1,False,,False,1000.0,512.0,False,,False,,False,2880.0,True,,False,,False,INT 8/16,True,False,CNN; LSTM; RNN,ARM,https://www.arm.com/products/silicon-ip-cpu/ethos/ethos-u55
+ETHOS-U65,2020,ASIC,16,0.6,False,,False,,1000.0,False,,False,,False,1666.67,True,,False,,False,INT 8/16,True,False,CNN; LSTM; RNN,ARM,https://www.arm.com/products/silicon-ip-cpu/ethos/ethos-u65
+KL720,2020,ASIC,,,False,1362.5,False,696.0,1500.0,False,,False,1250.0,True,,False,,False,,False,Bit 8,True,,CNN; LSTM; RNN,Kneron,https://www.kneron.com/solutions/soc/
+GoSPA,2021,simulated,28,0.25,True,26.64,False,500.0,16.0,True,,False,600.601,True,64.0,True,,False,,False,Bit 8/16,True,False,CNN,,https://ieeexplore.ieee.org/abstract/document/9499915
+RingCNN,2021,simulated,40,23.36,False,2220.0,False,250.0,41.0,False,,False,28400.0,False,1755.137,True,,False,,False,FxP 8,True,False,CNN,,https://ieeexplore.ieee.org/abstract/document/9499811
+SNAFU-ARCH,2021,simulated,28,1.0,False,0.32,False,50.0,0.2,True,,False,625.0,True,0.2,True,,False,,False,Bit +32,True,False,GEMM,,https://ieeexplore.ieee.org/abstract/document/9499726
+Cambricon-Q,2021,simulated,45,9.18,True,1030.31,False,1000.0,2000.0,False,,False,1941.163,True,217.865,True,,False,,False,Bit 4/8/12/16,True,True,CNN; RNN,Cambricon,https://ieeexplore.ieee.org/abstract/document/9499944
+ELSA,2021,simulated,40,2.1,False,1472.89,False,1000.0,1088.0,False,,False,738.684,True,518.095,True,,False,,False,FP 16 (custom) | FxP 6/9 (custom),True,False,Transformer,,https://ieeexplore.ieee.org/abstract/document/9499860
+RaPiD,2021,ASIC,7,36.0,False,6206.0,True,1600.0,51200.0,False,,False,8250.0,False,2610.0,False,,False,,False,INT 2/4| FP 6/8/16,True,True,CNN; LSTM; RNN; Transformer,IBM,https://ieeexplore.ieee.org/abstract/document/9365791
+NPU'21,2021,simulated,5,5.46,False,327.0,False,1196.0,14700.0,False,,False,13600.0,False,4447.2,True,,False,,False,INT 8/16,True,False,DNN; CNN,Samsung,https://ieeexplore.ieee.org/abstract/document/9365928
+,2021,simulated,40,0.57,False,93.0,False,1600.0,899.0,False,,False,9700.0,False,1577.193,True,,False,,False,Bit 8,True,False,MLP,,https://ieeexplore.ieee.org/abstract/document/9458511
+PremCNN,2021,simulated,28,3.44,False,500.0,False,800.0,102.4,True,,False,204.8,True,29.767,True,,False,,False,Bit 16,True,False,DNN; CNN,,https://ieeexplore.ieee.org/abstract/document/9040601
+GAMMA,2021,simulated,45,30.6,False,,False,1000.0,20.0,False,,False,,False,0.654,True,,False,,False,,True,,SpGEMM,,https://dl.acm.org/doi/10.1145/3445814.3446702
+FPRaker,2021,simulated,65,771.6114144,True,3942.0,True,600.0,11059.2,True,,False,2835.69231,True,14.3326,True,,False,,False,BFP 16,True,True,CNN,,https://dl.acm.org/doi/10.1145/3466752.3480106
+Bitlet,2021,simulated,28,1.54,False,366.0,False,1000.0,744.7,False,,False,1335.93,False,483.572,True,,False,,False,FP 32| FxP 1-24,True,True,DNN; CNN; GAN; Transformer,,https://dl.acm.org/doi/10.1145/3466752.3480123
+RASA,2021,simulated,15,0.904,True,,False,500.0,128.0,True,,False,,False,138.54,True,,False,,False,BFP 16| FP 32,True,,GEMM,,https://ieeexplore.ieee.org/abstract/document/9586257
+StepStone PIM,2021,simulated,,,False,1400.0,False,1200.0,,False,,False,,False,,False,,False,,False,Bit 32,True,,GEMM,,https://dl.acm.org/doi/abs/10.1145/3458817.3476146
+SpAtten,2021,simulated,40,18.71,False,8300.0,False,1000.0,2880.0,True,,False,346.988,True,153.928,True,,False,,False,Bit 8/12,True,False,Transformer,,https://ieeexplore.ieee.org/abstract/document/9407232
+IMPULSE,2021,ASIC,65,0.089,False,0.201,False,200.0,0.2,False,,False,990.0,False,2.24,False,,False,,False,Bit 6/11,True,True,SNN,,https://ieeexplore.ieee.org/abstract/document/9466245
+VSA,2021,simulated,40,,False,88.968,False,500.0,2304.0,False,,False,25900.0,False,,False,,False,,False,Bit 1,True,True,SNN,,https://ieeexplore.ieee.org/abstract/document/9401181
+,2021,simulated,65,,False,478.0,False,250.0,576.0,False,,False,1205.0,False,,False,,False,,False,INT 8/9,True,False,CNN,,https://ieeexplore.ieee.org/abstract/document/9401287
+Ethos-N78,2021,ASIC,,,False,,False,,10000.0,False,,False,,False,,False,,False,,False,INT 8/16,True,False,CNN; LSTM; RNN,ARM,https://www.arm.com/products/silicon-ip-cpu/ethos/ethos-n78
+KL530,2021,ASIC,,,False,500.0,False,,1000.0,False,,False,2000.0,True,,False,,False,,False,INT 4/8,True,,CNN; LSTM; RNN; Transformer,Kneron,https://www.kneron.com/solutions/soc/
+q16,2021,ASIC,16,256.0,False,5500.0,False,1000.0,64000.0,False,,False,11636.36,True,253.91,False,,False,,False,Multi,True,,DNN,quadric,https://www.quadric.io/technology/devkit
+M1076 AMP,2021,ASIC,,294.5,False,4000.0,False,,25000.0,False,,False,6250.0,True,84.889,False,,False,,False,INT 4/8/16,True,False,DNN,Mythic,https://mythic.ai/products/m1076-analog-matrix-processor/
+VE2002,2021,ASIC,7,,False,6000.0,False,,5000.0,False,,False,833.33,True,,False,,False,,False,INT 4/8| BFP 16,True,False,DNN; CNN,Xilinx,https://www.xilinx.com/products/silicon-devices/acap/versal-ai-edge.html
+VE2102,2021,ASIC,7,,False,7000.0,False,,8000.0,False,,False,1142.86,True,,False,,False,,False,INT 4/8| BFP 16,True,False,DNN; CNN,Xilinx,https://www.xilinx.com/products/silicon-devices/acap/versal-ai-edge.html
+RedMulE,2022,simulated,22,0.5,False,43.5,False,476.0,30.0,False,,False,688.0,False,60.0,True,,False,,False,FP 16,True,,GEMM,,https://ieeexplore.ieee.org/abstract/document/9774759
+DOTA,2022,simulated,22,2.746,False,3020.0,False,100.0,2048.0,True,,False,678.146,True,745.812,True,,False,,False,INT 2/4/8| FxP 16,True,False,Transformer,,https://dl.acm.org/doi/10.1145/3503222.3507738
+EcoFlow,2022,simulated,45,,False,332.0,False,200.0,39.0,True,,False,117.47,True,,False,,False,,False,BFP 16,True,True,CNN; GAN,,https://arxiv.org/abs/2202.02310
+FINGERS,2022,simulated,28,18.68,True,3682.0,True,1000.0,,False,,False,,False,,False,,False,,False,,True,,Graph Mining,,https://dl.acm.org/doi/10.1145/3503222.3507730
+DTQAtten,2022,simulated,40,1.41,False,,False,1000.0,952.8,False,,False,,False,678.4,False,,False,,False,Bit 4/8,True,False,Transformer,,https://ieeexplore.ieee.org/abstract/document/9774692
+,2022,simulated,28,0.89,False,149.3,False,500.0,,False,,False,,False,,False,,False,,False,,True,True,SNN,,https://ieeexplore.ieee.org/abstract/document/9491036
+Skydiver,2022,FPGA,,,False,960.0,False,200.0,,False,22.6,False,,False,,False,19.3,False,,False,,True,,SNN,,https://ieeexplore.ieee.org/abstract/document/9733037
+DIMMining,2022,simulated,32,0.382,False,105.82,False,500.0,,False,,False,,False,,False,,False,,False,,True,,Graph Mining,,https://dl.acm.org/doi/10.1145/3470496.3527388
+MeNDA-PU,2022,simulated,40,7.1,False,92.4,False,800.0,,False,,False,,False,,False,,False,,False,,True,,SpMatrix Transposition,,https://dl.acm.org/doi/10.1145/3470496.3527432
+Ubrain,2022,simulated,32,4.0,False,45.0,False,400.0,,False,,False,,False,,False,,False,,False,Bit 8/10,True,False,DNN; CNN; RNN,,https://dl.acm.org/doi/10.1145/3470496.3527401
+Mokey,2022,simulated,65,23.9,False,4478.0,True,1000.0,,False,,False,,False,,False,,False,,False,FxP 16,True,False,Transformer,,https://dl.acm.org/doi/10.1145/3470496.3527438
+HP-LeOPArd,2022,simulated,65,3.47,False,,False,800.0,574.1,False,,False,,False,165.5,False,,False,,False,Bit 16,True,,Attention,,https://dl.acm.org/doi/10.1145/3470496.3527423
