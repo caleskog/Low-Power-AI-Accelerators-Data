@@ -1,4 +1,4 @@
-# Low-Power-AI-Accelerators-Data
+# Low-Power AI Accelerators Dataset
 The data used for my paper "Recent Developments in Low-Power AI Accelerators: A Survey", published in the MDPI Journal, Algorithms.
 
 If you are using this data for any reasons, please cite the following paper.
