@@ -36,7 +36,7 @@ DT-CNN,2020,simulated,65,6.8,False,206.0,False,200.0,664.4,False,,False,3220.0,F
 ,2020,simulated,45,,False,199.68,False,25.0,121.4,False,,False,610.0,False,,False,,False,,False,Bit 1/4/5/8,True,,MAC,,https://ieeexplore.ieee.org/abstract/document/8998360
 A3,2020,simulated,40,2.082,False,98.92,False,1000.0,221.0,False,,False,2234.13,True,106.148,True,,False,,False,,True,False,Transformer,,https://ieeexplore.ieee.org/abstract/document/9065498
 OPTIMUS,2020,simulated,28,5.186,False,928.14,False,200.0,,False,,False,,False,,False,,False,,False,Bit 32 | FxP 16,True,,GEMM,,https://proceedings.mlsys.org/paper/2020/hash/903ce9225fca3e988c2af215d4e544d3-Abstract.html
-SpArch,2020,simulated,40,28.49,False,9260.0,False,1000.0,16.0,False,,False,1.728,True,0.562,True,,False,,False,FP 64,True,,SpGEMM,,SpArch: Efficient Architecture for Sparse Matrix Multiplication | IEEE Conference Publication | IEEE Xplore
+SpArch,2020,simulated,40,28.49,False,9260.0,False,1000.0,16.0,False,,False,1.728,True,0.562,True,,False,,False,FP 64,True,,SpGEMM,,https://ieeexplore.ieee.org/abstract/document/9065428
 ,2020,ASIC,14,9.8,False,2727.0,True,1500.0,3000.0,False,,False,1100.0,False,300.0,False,,False,,False,FP 16,True,True,CNN; LSTM; RNN,IBM,https://ieeexplore.ieee.org/abstract/document/9162917
 REVEL,2020,simulated,28,1.93,False,1663.3,False,1250.0,,False,,False,,False,,False,,False,,False,,True,,Matrix Alg.,,https://ieeexplore.ieee.org/abstract/document/9065593
 ETHOS-U55,2020,ASIC,16,0.1,False,,False,1000.0,512.0,False,,False,,False,2880.0,True,,False,,False,INT 8/16,True,False,CNN; LSTM; RNN,ARM,https://www.arm.com/products/silicon-ip-cpu/ethos/ethos-u55
