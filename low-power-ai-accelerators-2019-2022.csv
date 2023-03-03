@@ -50,7 +50,7 @@ ELSA,2021,simulated,40,2.1,False,1472.89,False,1000.0,1088.0,False,,False,738.68
 RaPiD,2021,ASIC,7,36.0,False,6206.0,True,1600.0,51200.0,False,,False,8250.0,False,2610.0,False,,False,,False,INT 2/4| FP 6/8/16,True,True,CNN; LSTM; RNN; Transformer,IBM,https://ieeexplore.ieee.org/abstract/document/9365791
 NPU'21,2021,simulated,5,5.46,False,327.0,False,1196.0,14700.0,False,,False,13600.0,False,4447.2,True,,False,,False,INT 8/16,True,False,DNN; CNN,Samsung,https://ieeexplore.ieee.org/abstract/document/9365928
 ,2021,simulated,40,0.57,False,93.0,False,1600.0,899.0,False,,False,9700.0,False,1577.193,True,,False,,False,Bit 8,True,False,MLP,,https://ieeexplore.ieee.org/abstract/document/9458511
-PremCNN,2021,simulated,28,3.44,False,500.0,False,800.0,102.4,True,,False,204.8,True,29.767,True,,False,,False,Bit 16,True,False,DNN; CNN,,https://ieeexplore.ieee.org/abstract/document/9040601
+PermCNN,2021,simulated,28,3.44,False,500.0,False,800.0,102.4,True,,False,204.8,True,29.767,True,,False,,False,Bit 16,True,False,DNN; CNN,,https://ieeexplore.ieee.org/abstract/document/9040601
 GAMMA,2021,simulated,45,30.6,False,,False,1000.0,20.0,False,,False,,False,0.654,True,,False,,False,,True,,SpGEMM,,https://dl.acm.org/doi/10.1145/3445814.3446702
 FPRaker,2021,simulated,65,771.6114144,True,3942.0,True,600.0,11059.2,True,,False,2835.69231,True,14.3326,True,,False,,False,BFP 16,True,True,CNN,,https://dl.acm.org/doi/10.1145/3466752.3480106
 Bitlet,2021,simulated,28,1.54,False,366.0,False,1000.0,744.7,False,,False,1335.93,False,483.572,True,,False,,False,FP 32| FxP 1-24,True,True,DNN; CNN; GAN; Transformer,,https://dl.acm.org/doi/10.1145/3466752.3480123
